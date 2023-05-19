@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Global stiler */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Stiler for Dashboard-komponenten */
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dashboard-section {
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.dashboard-section h2 {
+  margin-top: 0;
+}
+
+.dashboard-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-section li {
+  margin-bottom: 10px;
+}
+
+.dashboard-section .buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Stiler for MyGames-komponenten */
+.my-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.my-games-item {
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.my-games-item h3 {
+  margin-top: 0;
+}
+
+/* Stiler for MyFavourites-komponenten */
+.my-favourites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.my-favourites-item {
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.my-favourites-item h3 {
+  margin-top: 0;
+}
+
+/* Stiler for GameShop-komponenten */
+.game-shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-shop-item {
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.game-shop-item h3 {
+  margin-top: 0;
+}
+
+.game-shop-item .buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
